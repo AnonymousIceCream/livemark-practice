@@ -8,8 +8,14 @@ site:
     - style.css
   scripts:
     - script.js
+github:
+  user: <user>
+  repo: <repo>
 pages:
   items:
-    - path: index
-    - path: pages/indexa
-    - path: pages/indexb
+    - name: Home
+      path: index
+    - name: Page 1
+      path: pages/indexa
+    - name: Page 2
+      path: pages/indexb
